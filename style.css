@@ -1,0 +1,299 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 700;
+}
+
+h1 {
+    font-size: 37px;
+    width: 565px;
+    margin-top: 147px;
+    margin-bottom: 45px;
+}
+
+.desktop {
+    margin-bottom: 50px;
+    margin-top: 47px;
+}
+
+.intro {
+    font-size: 16px;
+    width: 405px;
+    margin-bottom: 45px;
+}
+
+h1 span {
+    font-size: 49px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: rgba(78, 192, 254, 1);
+    background: -moz-linear-gradient(-45deg, rgba(78, 192, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78, 192, 254, 1)), color-stop(100%, rgba(55, 144, 217, 1)));
+    background: -webkit-linear-gradient(-45deg, rgba(78, 192, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(78, 192, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(78, 192, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: linear-gradient(135deg, rgba(78, 192, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4ec0fe', endColorstr='#3790d9', GradientType=1);
+}
+
+.logo {
+    margin-top: 60px;
+}
+
+.offer {
+    color: #fff;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    font-size: 15px;
+    background: #ffd429;
+    font-family: 'Montserrat', sans-serif;
+    width: 225px;
+    color: black;
+    padding: 18px 25px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #ffe47b;
+}
+
+.title-h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 112px;
+    margin-bottom: 80px;
+}
+
+.section-h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background: #ecf3f8; */
+    /* margin-top: 110px; */
+}
+
+.times {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.time {
+    margin-left: 40px;
+}
+
+.learn {
+    padding-bottom: 122px;
+}
+
+.mail {
+    padding-top: 108px;
+    padding-bottom: 102px;
+    background: #ecf3f8;
+}
+
+.icon {
+    /* text-align: center; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.icon-text1 {
+    /* text-align: center; */
+    width: 297px;
+    /* margin: 0 auto;
+    box-sizing: border-box; */
+}
+
+.icon-text2 {
+    /* text-align: center; */
+    width: 280px;
+    /* margin: 0 auto;
+    box-sizing: border-box; */
+}
+
+.icon-text3 {
+    /* text-align: center; */
+    width: 325px;
+    margin: 16px;
+}
+
+
+.icon-title {
+    margin: 0px 36px;
+    text-align: center;
+}
+
+.form {
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0 auto;
+    /* margin-right: auto;
+    margin-left: auto; */
+    display: block;
+}
+
+
+.btn-mail {
+    margin: 0 auto;
+    background: #ffd429;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 15px;
+    width: 320px;
+    color: black;
+    padding: 15px 34px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.btn-mail:hover {
+    background-color: #ffe47b;
+}
+
+.input {
+    width: 320px;
+    padding: 13px 15px;
+    margin-bottom: 13px;
+    border: 1px solid #bbbbbb;
+
+}
+
+.footer {
+    background: #164d7a;
+    padding: 28px 0;
+    color: #fff;
+}
+
+.credits {
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .offer {
+        width: 100%;
+    }
+
+
+    .intro {
+        width: auto;
+    }
+
+    .desktop {
+        display: block;
+        width: 450px;
+        margin: 65px auto 0;
+    }
+
+
+    .times {
+        flex-direction: column;
+    }
+
+    .time {
+        width: auto;
+        margin-bottom: 50px;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+
+    .desktop {
+        width: 100%;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    .btn {
+        margin-left: 0;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+
+    .btn-mail {
+        margin-left: 0;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+}
